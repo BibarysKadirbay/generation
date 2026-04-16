@@ -2,8 +2,7 @@ syntax = "proto3";
 
 package order;
 
-option go_package = "github.com/BibarysKadirbay/generated-repo/orderpb;orderpb";
-
+option go_package = "github.com/BibarysKadirbay/generated-contracts/gen/go/orderpb;orderpb";
 import "google/protobuf/timestamp.proto";
 
 service OrderService {
