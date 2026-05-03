@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - "*.proto"
-
+      - ".github/workflows/generate.yml"
 jobs:
   generate:
     runs-on: ubuntu-latest
